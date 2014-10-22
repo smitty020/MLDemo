@@ -135,7 +135,7 @@
                             labelPosition: 'bottom',
                             labelHeightAdjust: 0,
                             intervalOuterRadius: 85,
-                            ticks: [25, 50, 75, 100],
+                            ticks: [0, 25, 50, 75, 100],
                             intervals: [50, 70, 100],
                             intervalColors: ['#cc6666', '#E7E658', '#66cc66']
                         }
