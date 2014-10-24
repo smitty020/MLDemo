@@ -103,11 +103,11 @@
                         var creditScore = (parseFloat(items[21]) * 100).toFixed(2);
                         if (items[20] == "2") {
                             $j('#outputText').addClass("approved");
-                            $j('#outputText').html("Congratulations!  You've been approved with a confidence score of: " + creditScore);
+                            $j('#outputText').html("Congratulations!  You've been approved with a confidence score of: " + creditScore + "%");
                         }
                         else {
                             $j('#outputText').addClass("denied");
-                            $j('#outputText').html("Sorry dude!  You've been DENIED!!!  You're credit confidence score is a measly: " + creditScore);
+                            $j('#outputText').html("Sorry dude!  You've been DENIED!!!  You're credit confidence score is a measly: " + creditScore + "%");
                         }
 
                         ShowGraph(creditScore);
@@ -142,7 +142,6 @@
                     }
                 });
             });
-
         }
 
 
